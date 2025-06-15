@@ -18,7 +18,12 @@ export default defineConfig({
       {
         text: 'Memos',
         items: [
-          { text: 'Cours', link: '/cours' },
+          { text: 'HTML 5', link: '/memos/HTML5/readme' },
+          { text: 'CSS', link: '/memos/CSS/readme' },
+          { text: 'JavaScript', link: '/memos/JS/readme' },
+          { text: 'PHP', link: '/memos/PHP/readme' },
+          { text: 'C#', link: '/memos/CSHARP/readme' },
+          { text: 'JAVA', link: '/memos/JAVA/readme' },
           // ...
         ],
       },
