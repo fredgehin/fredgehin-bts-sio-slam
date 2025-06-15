@@ -9,7 +9,7 @@ Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blo
 
 ---
 
-## 🚀 Cours par langage
+## 🚀 Mémos par langage
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
 
@@ -17,6 +17,13 @@ Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blo
   <a href="memos/HTML5/readme">
     <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML"/><br/>
     HTML5
+  </a>
+</div>
+
+<div style="text-align: center; width: 120px;">
+  <a href="memos/CSS/readme">
+    <img src="https://img.icons8.com/?size=100&id=9LzTKJEpw79X&format=png&color=000000" alt="CSS"/><br/>
+    CSS
   </a>
 </div>
 
