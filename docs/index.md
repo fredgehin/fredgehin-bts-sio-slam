@@ -14,9 +14,9 @@ Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blo
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
 
 <div style="text-align: center; width: 120px;">
-  <a href="html-css/README.md">
-    <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML CSS"/><br/>
-    HTML / CSS
+  <a href="HTML5/html">
+    <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML"/><br/>
+    HTML5
   </a>
 </div>
 
