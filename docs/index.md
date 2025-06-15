@@ -1,4 +1,4 @@
-# 🧑‍💻 Bienvenue sur le site pédagogique – BTS SIO 1ère année (SLAM)
+# 🧑‍💻 BTS SIO - Frédéric GEHIN
 
 Bienvenue sur votre espace dédié à la **formation en informatique**.  
 Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blocs de compétences** organisés par langage et par thème.

@@ -28,18 +28,18 @@ export default defineConfig({
         ],
       },
       {
-        text: 'TPs',
+        text: 'TP',
         items: [
           { text: 'TP', link: '/tp' },
           // ...
         ],
       },
       {
-        text: 'Bloc par Bloc',
+        text: 'Les différents blocs',
         items: [
-          { text: 'Bloc 1', link: 'bloc-par-bloc/bloc1' },
-          { text: 'Bloc 2', link: 'bloc-par-bloc/bloc2' },
-          { text: 'Bloc 3', link: 'bloc-par-bloc/bloc3' },
+          { text: 'Bloc 1 - Support', link: 'bloc-par-bloc/bloc1' },
+          { text: 'Bloc 2 - Développement', link: 'bloc-par-bloc/bloc2' },
+          { text: 'Bloc 3 - Cybersécurité', link: 'bloc-par-bloc/bloc3' },
           { text: 'Ateliers Pro', link: 'bloc-par-bloc/ateliers' },
         ],
       },
