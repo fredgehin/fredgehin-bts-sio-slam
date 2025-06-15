@@ -1,25 +1,18 @@
 
 # 📘 Mémo JavaScript – Bases et exemples fondamentaux
 
-JavaScript est un langage de programmation qui permet de rendre les pages web interactives. Ce mémo présente les bases indispensables avec des exemples simples.
+JavaScript est un langage de programmation **côté client**, utilisé pour rendre les pages web interactives. Ce mémo vous présente les bases avec des **exemples commentés**.
 
 ---
 
-## 🧱 Insertion de JavaScript
-
-Dans une page HTML :
+## 🧱 Insertion de JavaScript dans une page HTML
 
 ```html
 <script>
   alert("Bienvenue !");
 </script>
 ```
-
-Ou dans un fichier externe :
-
-```html
-<script src="script.js"></script>
-```
+👉 Ce script affiche une boîte de dialogue dès le chargement de la page.
 
 ---
 
@@ -30,10 +23,9 @@ let nom = "Alice";
 const PI = 3.14;
 var age = 25;
 ```
-
-- `let` : variable modifiable (portée bloc)
-- `const` : constante (non modifiable)
-- `var` : ancienne syntaxe (portée fonction)
+- `let` : variable modifiable, visible dans le bloc courant.
+- `const` : constante non modifiable.
+- `var` : ancienne méthode, à éviter si possible.
 
 ---
 
@@ -46,6 +38,7 @@ let estActif = true;
 let rien = null;
 let inconnu;
 ```
+👉 JavaScript est faiblement typé : une variable peut changer de type dynamiquement.
 
 ---
 
@@ -60,6 +53,7 @@ if (age >= 18) {
   console.log("Mineur");
 }
 ```
+👉 Permet d'exécuter un code selon une condition vraie ou fausse.
 
 ---
 
@@ -76,6 +70,7 @@ while (j < 3) {
   j++;
 }
 ```
+👉 Utilisées pour répéter des instructions un nombre déterminé (`for`) ou indéterminé (`while`).
 
 ---
 
@@ -88,12 +83,7 @@ function direBonjour(prenom) {
 
 console.log(direBonjour("Lucie"));
 ```
-
-Fonction fléchée :
-
-```javascript
-const multiplier = (a, b) => a * b;
-```
+👉 Une fonction permet de réutiliser un bloc de code. Ici, on personnalise un message.
 
 ---
 
@@ -101,10 +91,10 @@ const multiplier = (a, b) => a * b;
 
 ```javascript
 let fruits = ["pomme", "banane", "kiwi"];
-console.log(fruits[1]); // banane
+console.log(fruits[1]); // Affiche "banane"
 
-fruits.push("orange"); // ajouter
-fruits.pop(); // retirer le dernier
+fruits.push("orange"); // Ajoute à la fin
+fruits.pop(); // Supprime le dernier élément
 ```
 
 ---
@@ -122,24 +112,11 @@ let personne = {
 
 console.log(personne.saluer());
 ```
+👉 Les objets regroupent des données et des fonctions associées.
 
 ---
 
-## 🖱️ Interactions avec le HTML (DOM)
-
-### Sélectionner un élément :
-
-```javascript
-let titre = document.getElementById("titre");
-```
-
-### Modifier du contenu :
-
-```javascript
-titre.textContent = "Nouveau titre";
-```
-
-### Gérer un événement :
+## 🖱️ Interactions avec HTML (DOM)
 
 ```javascript
 let bouton = document.getElementById("btn");
@@ -147,26 +124,15 @@ bouton.addEventListener("click", function () {
   alert("Clic détecté !");
 });
 ```
+👉 On détecte un clic sur un bouton HTML et on affiche une alerte.
 
 ---
 
 ## 🔍 Console de débogage
 
-Utilise `console.log()` pour afficher des messages dans la console du navigateur.
-
 ```javascript
 console.log("Test de variable :", maVariable);
 ```
+👉 Très utile pour afficher des messages pendant l'exécution.
 
 ---
-
-## 📌 Bonnes pratiques
-
-- Toujours déclarer ses variables (`let`, `const`)
-- Donner des noms clairs aux fonctions et variables
-- Tester son code dans la console navigateur
-- Isoler les fonctions pour faciliter le débogage
-
----
-
-💡 Pour aller plus loin, explore la documentation [MDN JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript).

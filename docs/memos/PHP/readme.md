@@ -1,17 +1,18 @@
 
 # 🐘 Mémo PHP – Bases et exemples fondamentaux
 
-PHP est un langage de script côté serveur, principalement utilisé pour créer des sites web dynamiques. Voici les bases indispensables du langage PHP.
+PHP est un **langage côté serveur** qui permet de créer des pages web dynamiques. Voici un mémo avec les principales instructions et des **exemples détaillés**.
 
 ---
 
-## 🧱 Structure de base d'un script PHP
+## 🧱 Structure de base
 
 ```php
 <?php
   echo "Bonjour monde !";
 ?>
 ```
+👉 Le code PHP est interprété côté serveur et le résultat est renvoyé au navigateur.
 
 ---
 
@@ -22,15 +23,11 @@ $nom = "Alice";
 $age = 25;
 $estActif = true;
 ```
-
-- Les variables commencent par `$`
-- Pas de typage strict (mais PHP 7+ permet le typage optionnel)
+👉 `$` est obligatoire pour déclarer une variable.
 
 ---
 
-## 🔄 Conditions
-
-### `if` / `else`
+## 🔄 Conditions `if`, `else` et `switch`
 
 ```php
 if ($age >= 18) {
@@ -40,54 +37,48 @@ if ($age >= 18) {
 }
 ```
 
-### `switch`
-
 ```php
-$role = "admin";
-
 switch ($role) {
   case "admin":
-    echo "Accès administrateur";
+    echo "Accès admin";
     break;
   case "user":
     echo "Accès utilisateur";
     break;
-  default:
-    echo "Rôle inconnu";
 }
 ```
+👉 `switch` est utile pour tester plusieurs valeurs possibles.
 
 ---
 
 ## 🔁 Boucles
 
 ```php
-// Boucle for
 for ($i = 0; $i < 5; $i++) {
-  echo $i . "<br>";
+  echo $i;
 }
+```
 
-// Boucle while
+```php
 $j = 0;
 while ($j < 3) {
   echo $j;
   $j++;
 }
 ```
+👉 `for` est utilisé quand on connaît le nombre de répétitions. `while` continue tant qu'une condition est vraie.
 
 ---
 
-## 📦 Tableaux
+## 📦 Tableaux et `foreach`
 
 ```php
 $fruits = ["pomme", "banane", "kiwi"];
-echo $fruits[1]; // banane
-
-// Parcours avec foreach
 foreach ($fruits as $fruit) {
-  echo $fruit . "<br>";
+  echo $fruit;
 }
 ```
+👉 `foreach` parcourt chaque élément d’un tableau.
 
 ---
 
@@ -97,60 +88,44 @@ foreach ($fruits as $fruit) {
 function saluer($nom) {
   return "Bonjour " . $nom;
 }
-
 echo saluer("Lucie");
 ```
+👉 Une fonction peut retourner une valeur pour l'affichage ou le traitement.
 
 ---
 
-## 📩 Superglobales `$_GET` et `$_POST`
+## 📩 Utilisation de `$_POST` et `$_GET`
 
 ```php
-// Exemple formulaire en POST
 $nom = $_POST["nom"];
-echo "Bonjour " . htmlspecialchars($nom);
-```
-
-```php
-// Exemple URL en GET : page.php?produit=ordinateur
 $produit = $_GET["produit"];
-echo "Produit sélectionné : " . htmlspecialchars($produit);
 ```
+👉 Permet de récupérer les données envoyées par un formulaire ou passées dans l’URL.
 
 ---
 
 ## 🧑‍💻 Utilisation des sessions
 
 ```php
-session_start(); // Démarrer la session
-
+session_start();
 $_SESSION["utilisateur"] = "Alice";
-
 echo $_SESSION["utilisateur"];
 ```
+👉 Les sessions stockent des infos utilisateur de façon persistante entre les pages.
 
 ---
 
-## 💾 Connexion à une base de données avec PDO
+## 💾 Connexion à MySQL avec PDO
 
 ```php
 try {
   $pdo = new PDO("mysql:host=localhost;dbname=ma_base", "root", "");
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo "Connexion réussie";
 } catch (PDOException $e) {
   echo "Erreur : " . $e->getMessage();
 }
 ```
-
-### Requête préparée (INSERT)
-
-```php
-$stmt = $pdo->prepare("INSERT INTO utilisateurs (nom, email) VALUES (?, ?)");
-$stmt->execute(["Jean", "jean@example.com"]);
-```
-
-### Requête SELECT
+👉 `PDO` est une interface sécurisée pour se connecter à différentes bases.
 
 ```php
 $stmt = $pdo->prepare("SELECT * FROM utilisateurs WHERE id = ?");
@@ -158,17 +133,6 @@ $stmt->execute([1]);
 $user = $stmt->fetch();
 echo $user["nom"];
 ```
+👉 Préférer les requêtes préparées pour éviter les injections SQL.
 
 ---
-
-## 📌 Bonnes pratiques
-
-- Toujours utiliser `htmlspecialchars()` pour afficher les données utilisateurs
-- Préférer PDO à `mysqli` pour sa flexibilité et sécurité
-- Séparer la logique PHP du HTML avec des fichiers dédiés
-- Utiliser les sessions pour les données de connexion
-- Fermer les balises PHP uniquement si du HTML suit
-
----
-
-📘 Pour aller plus loin : [PHP – Documentation officielle](https://www.php.net/manual/fr/)

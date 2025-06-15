@@ -5,7 +5,7 @@ Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blo
 
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/BTS_SIO_logo.png/320px-BTS_SIO_logo.png" alt="Logo BTS SIO" width="200"/>
+<img src="https://www.lyceefulbert.fr/wp-content/uploads/2020/02/sio2_0.png" alt="Logo BTS SIO" width="200"/>
 
 ---
 
@@ -141,6 +141,7 @@ Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blo
 ## 📂 Ressources utiles
 
 - 📜 [Programme complet](programme.md)
+- 📝 [Epreuves du BTS](epreuves.md)
 - 📅 [Organisation de l’année](organisation.md)
 - 🛠️ [Ressources et outils](ressources/logiciels.md)
 - ❓ [FAQ – Questions fréquentes](ressources/faq.md)
