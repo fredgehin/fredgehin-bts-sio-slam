@@ -1,6 +1,6 @@
 # 🧑‍💻 BTS SIO - Frédéric GEHIN
 
-Bienvenue sur votre espace dédié à la **formation en informatique**.  
+Bienvenue sur votre espace dédié au **BTS SIO du lycée Robert Schuman**.  
 Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blocs de compétences** organisés par langage et par thème.
 
 ---
