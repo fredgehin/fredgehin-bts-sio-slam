@@ -42,15 +42,17 @@ Le BTS Services Informatiques aux Organisations (SIO) comprend plusieurs épreuv
 
 ---
 
-### ✅ E5 – Production et fourniture de services
+### ✅ E5 – Évaluation des compétences informatiques
 
-- **Modalité :** CCF (support et services)
-- **Objectif :** Gérer des incidents, assurer le support utilisateur, maintenir les services.
+- **Modalité :** L'épreuve se déroule en 10 minutes de présentation orale suivies de 30 minutes d'échange avec le jury
+- **Objectif :** L'épreuve E5 du BTS SIO, intitulée "Évaluation des compétences informatiques", est une composante essentielle de l'examen qui permet d'évaluer votre expérience professionnelle et les compétences que vous avez développées durant votre formation. Contrairement aux épreuves classiques, elle se concentre sur votre capacité à mobiliser vos connaissances dans un contexte professionnel réel et à en tirer des enseignements pertinents.
 - **Compétences attendues :**
-  - Diagnostiquer un dysfonctionnement.
-  - Intervenir dans le cadre d’un processus ITIL (support, maintenance, etc.).
-  - Utiliser des outils de gestion de tickets et de supervision.
-  - Documenter les procédures et interventions.
+  - Gérer le patrimoine informatique
+  - Répondre aux incidents et aux demandes d'assistance et d'évolution
+  - Développer la présence en ligne de l'organisation
+  - Travailler en mode projet
+  - Mettre à disposition des utilisateurs un service informatique
+  - Organiser son développement professionnel
 
 ---
 
