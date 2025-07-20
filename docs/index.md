@@ -1,11 +1,19 @@
+
 # 🧑‍💻 BTS SIO - Frédéric GEHIN
 
-Bienvenue sur votre espace dédié au **BTS SIO du lycée Robert Schuman**.  
-Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blocs de compétences** organisés par langage et par thème.
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;">
+  <div>
+    <img src="https://www.lyceefulbert.fr/wp-content/uploads/2020/02/sio2_0.png" alt="Logo BTS SIO" width="180"/>
+  </div>
 
----
+  <div style="flex: 1; min-width: 250px;">
+    <p>
+    Bienvenue sur votre espace dédié au <strong>BTS SIO du lycée Robert Schuman</strong>.<br/>
+    Vous y retrouverez tous les supports de <strong>cours</strong>, <strong>TP</strong>, <strong>projets</strong>, et <strong>blocs de compétences</strong> organisés par langage et par thème.
+    </p>
+  </div>
 
-<img src="https://www.lyceefulbert.fr/wp-content/uploads/2020/02/sio2_0.png" alt="Logo BTS SIO" width="200"/>
+</div>
 
 ---
 
@@ -28,32 +36,40 @@ Vous y retrouverez tous les supports de **cours**, **TP**, **projets**, et **blo
 </div>
 
 <div style="text-align: center; width: 120px;">
-  <a href="javascript/README.md">
+  <a href="memos/javascript/README">
     <img src="https://img.icons8.com/color/96/javascript--v1.png" alt="JavaScript"/><br/>
     JavaScript
   </a>
 </div>
 
 <div style="text-align: center; width: 120px;">
-  <a href="php/README.md">
+  <a href="memos/php/README">
     <img src="https://img.icons8.com/officel/96/php-logo.png" alt="PHP"/><br/>
     PHP
   </a>
 </div>
 
 <div style="text-align: center; width: 120px;">
-  <a href="csharp/README.md">
+  <a href="memos/csharp/README">
     <img src="https://img.icons8.com/color/96/c-sharp-logo.png" alt="C#"/><br/>
     C#
   </a>
 </div>
 
 <div style="text-align: center; width: 120px;">
-  <a href="java/README.md">
+  <a href="memos/java/README">
     <img src="https://img.icons8.com/color/96/java-coffee-cup-logo.png" alt="Java"/><br/>
     Java
   </a>
 </div>
+
+<div style="text-align: center; width: 120px;">
+  <a href="memos/poo/README">
+    <img src="https://img.icons8.com/fluency/96/classroom.png" alt="POO"/><br/>
+    POO Java / C#
+  </a>
+</div>
+
 
 </div>
 

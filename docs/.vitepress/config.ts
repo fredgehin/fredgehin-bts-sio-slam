@@ -24,11 +24,20 @@ export default defineConfig({
           { text: 'PHP', link: '/memos/PHP/readme' },
           { text: 'C#', link: '/memos/CSHARP/readme' },
           { text: 'JAVA', link: '/memos/JAVA/readme' },
+          { text: 'POO', link: '/memos/POO/readme' },
+          {
+            text: 'OFFICE',
+            items: [
+              { text: 'Excel', link: '/memos/OFFICE/excel' },
+              { text: 'Word', link: '/memos/OFFICE/word' },
+              { text: 'PowerPoint', link: '/memos/OFFICE/powerpoint' },
+            ]
+          }
           // ...
         ],
       },
       {
-        text: 'TP',
+        text: 'TPs',
         items: [
           { text: 'TP', link: '/tp' },
           // ...
