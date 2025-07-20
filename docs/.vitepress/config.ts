@@ -28,9 +28,9 @@ export default defineConfig({
           {
             text: 'OFFICE',
             items: [
-              { text: 'Excel', link: '/memos/OFFICE/excel' },
-              { text: 'Word', link: '/memos/OFFICE/word' },
-              { text: 'PowerPoint', link: '/memos/OFFICE/powerpoint' },
+              { text: 'Excel', link: '/memos/OFFICE/EXCEL/readme' },
+              { text: 'Word', link: '/memos/OFFICE/WORD/readme' },
+              { text: 'PowerPoint', link: '/memos/OFFICE/POWERPOINT/readme' },
             ]
           }
           // ...
