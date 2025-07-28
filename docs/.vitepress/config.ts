@@ -44,6 +44,13 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Planning',
+        items: [
+          { text: 'Prévisionnel', link: '/planning' },
+          // ...
+        ],
+      },
+      {
         text: 'Les différents blocs',
         items: [
           { text: 'Bloc 1 - Support', link: 'bloc-par-bloc/bloc1' },
